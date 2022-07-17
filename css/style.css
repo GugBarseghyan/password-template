@@ -1,7 +1,7 @@
 *{ box-sizing: border-box; font-family: "SF pro display"; }
 body{
     background: url(../back2.png);
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
