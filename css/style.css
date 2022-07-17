@@ -1,0 +1,34 @@
+*{ box-sizing: border-box; font-family: "SF pro display"; }
+body{
+    background: url(../back2.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{ width: 400px; }
+.hard-mode{
+    width: 100%;
+    background-color: aqua;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px 0px;
+    position: relative;
+    opacity: 0.6;
+}
+.length{ width: 0%; height: 100%; border-radius: 3px; }
+input {
+    transition: 0.3s;
+    padding: 10px 15px;
+    background-color: #fff2;
+    border: 1px solid #fff5;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 100%;
+    margin: 5px 0px;
+    color: white;
+}
+input[type="submit"] { background-color: #fff4; }
+input[type="submit"]:hover{ background-color: #fff6; }
+.disable{ opacity: 0.2; cursor: not-allowed; }
+.active{ cursor: pointer; }
